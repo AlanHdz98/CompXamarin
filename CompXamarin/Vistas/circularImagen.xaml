@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CompXamarin.Vistas.circularImagen">
+             
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:CircleImage Source="https://imagenes.elpais.com/resizer/6uBRi3aiOY4dxR1K_Q6SkOJAtoo=/1200x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/4UJTAMYSR6VIEO7LTA5TG5R24I.jpg"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                                  BorderColor="Gold"
+                                  BorderThickness="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
